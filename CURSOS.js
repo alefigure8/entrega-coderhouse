@@ -1,0 +1,7 @@
+// Agregar cursos sin límite.
+export const CURSOS = [
+    {option: 'a', name: 'Javascript', description: 'Donec bibendum risus a sapien eleifend, sollicitudin eleifend ipsum scelerisque. Nunc vitae iaculis diam, in imperdiet nulla. Nam vehicula eros varius ligula tempor, sed euismod justo consectetur. In volutpat gravida elit, ut suscipit enim tincidunt eget.', duration: 120, price: 4500},
+    {option: 'b', name: 'NodeJS', description: 'Proin faucibus massa scelerisque sem tempor, id ultrices velit varius. Curabitur et nibh egestas, facilisis neque a, consequat tortor. Aliquam ultricies risus ut quam scelerisque, a ornare mauris mattis. Cras volutpat, augue eget iaculis pulvinar, erat mauris commodo augue, eu lacinia lacus mauris nec quam.',duration: 120, price: 4500},
+    {option: 'c', name: 'Fullstack', description: 'Duis tempor felis nec ultricies convallis. Maecenas rhoncus sapien vulputate, rhoncus nunc nec, scelerisque orci. Curabitur rutrum, velit vitae finibus ultrices, justo mi semper libero, vel bibendum ligula ex id sapien. Sed ut elit eget velit laoreet posuere.',duration: 240,  price: 7500},
+    {option: 'd', name: 'Git', description: 'In hac habitasse platea dictumst. Mauris in sapien ac quam consequat congue. Etiam nisl neque, facilisis vitae ante non, fermentum ornare risus. Ut ultrices elementum dignissim. Nunc vel magna massa.',duration: 30,  price: 1500},
+];

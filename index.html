@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderHouse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="nav">
+        <h1 class="title" id="back"><a href="#main">CODERHOUSE</a></h1>
+        <div class="box">CODIGO</div>
+    </nav>
+    <main class="main" id="main">
+        <div class="cards" id="cards">
+        </div>
+    </main>
+    <section class="section-payment hide" id="pay">
+        <div class="content-center">
+            <div class="about">
+                <h2 class="title-payment">Sobre el curso</h2>
+                <h3 class="title-curso mt" id="title-curso">curso</h3>
+                <p class="description-payment" id="description-payment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus amet possimus consequatur porro maxime harum voluptates placeat deleniti unde suscipit.</p>
+                <p class="description-payment mt mt f-16 bold"><span id="description-days"></span></p>
+                <p class="description-payment mt f-16 bold" ><span id="description-code"></span></p>
+                <p class="description-payment mt f-16 bold" id="description-cuota"></p>
+                <p class="price-payment" id="description-price">$4500</p>
+            </div>
+            <form class="payment" id="btn-calculate">
+                <h2 class="title-payment">CALCULAR PAGO</h2>
+                <div class="section">
+                    <h3 class="title-description">Código de Descuento</h3>
+                    <input type="text" class="input" id="code" name="codigo" placeholder="Ingrese código de descuento">
+                    <p class="invalid mt" id="invalid-code"></p>
+                </div>
+                <div class="section">
+                    <h3 class="title-description">Cuotas</h3>
+                    <input type="number" class="input" name="cuotas" id="cuotas" value="1" min="1">
+                </div>
+                <button type="submit" class="btn-payment mt" >Calcular pago</button>
+            </form>
+        </div>
+</section>
+<div class="back" id="back"><a href="#main"><i class="fa-solid fa-circle-arrow-up"></i></a></div>
+    <footer>Realizado por Alejandro Gomez Nieto</footer>
+    <script src="main.js" type="module"></script>
+    <script src="DOM.js" type="module"></script>
+</body>
+</html>
