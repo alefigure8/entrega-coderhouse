@@ -85,9 +85,9 @@ export function renderValidateCode(){
 // render cantidad de cuotas
 export function renderCuotas(number){
     if(number == 1) {
-        descriptionCuota.innerText = `${number} cuota de:`
+        descriptionCuota.innerText = `${number} cuota`
     } else {
-        descriptionCuota.innerText = `${number} cuotas de:`
+        descriptionCuota.innerText = `${number} cuotas`
     }
 }
 
